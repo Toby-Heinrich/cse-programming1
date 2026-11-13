@@ -1,0 +1,50 @@
+  156  cat src/info.txt 
+  157  cd ~
+  158  ls
+  159  cd prog1/
+  160  ls
+  161  cd lab00/
+  162  ls
+  163  cat -n practice/docs/readme.txt
+  164  cd practice/
+  165  lứ
+  166  ls
+  167  cd src
+  168  ls
+  169  cat info.txt 
+  170  cat -n info.txt 
+  171  cd ..
+  172  cd..
+  173  cd ..
+  174  ls -R practice > practice/listing.txt
+  175  cat practice/listing.txt 
+  176  find ~/prog1 -name "*.txt"
+  177  grep -rn "Lab" practice
+  178  ls -1 /usr/include/*.h | wc -l
+  179  rmdir practice/build
+  180  mv practice_done
+  181  mv practice practice_done
+  182  ls
+  183  history 20 > ~/prog1/lab00/commands.txt
+  184  cat ~/prog1/lab00//commands.txt 
+  185  history 30 > ~/prog1/lab00/commands.txt
+  184  cat ~/prog1/lab00//commands.txt 
+  185  history 30 > ~/prog1/lab00/commands.txt
+  186  cat ~/prog1/lab00//commands.txt 
+  187  nano hello.c
+  188  gcc -Wall hello.c -o hello
+  189  ./hello 
+  190  nano hello.c
+  191  ./hello 
+  192  gcc -Wall hello.c -o hello
+  193  ./hello 
+  194  mkdir -p project/{src,build}
+  195  cp hello.c project/src/
+  196  cd pr
+  197  cd project/
+  198  ls src/
+  199  gcc -Wall src/hello.c -o build/hello
+  200  ./build/hello > output.txt
+  201  cat output.txt 
+  202  ls -l build/hello
+  203  history 20 >> ~/prog1/lab00/commands.txt 
