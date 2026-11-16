@@ -48,3 +48,23 @@
   201  cat output.txt 
   202  ls -l build/hello
   203  history 20 >> ~/prog1/lab00/commands.txt 
+  218  ssh -T git@github.com
+  219  cd ..
+  220  git clone git@github.com:Toby-Heinrich/cse-programming1.git
+  221  cd cse-programming1/
+  222  mkdir -p labs/lab00
+  223  cp ~/prog1/lab00/command.txt labs/lab00/command.txt
+  224  cp ~/prog1/lab00/commands.txt labs/lab00/commands.txt
+  225  git add labs/lab00/commands.txt
+  226  git commit -m "Lab0: complete setup and exercises 2.1, 3.1"
+  227  git push
+  228  ssh-copy-id sv102240485@172.16.89.111 -p 22
+  229  ssh-copy-id sv102240485@172.16.89.111
+  230  ssh sv102240485@172.16.89.111
+  231  nano ~/.ssh/config
+  232  chmod 600 ~/.ssh/config
+  233  ssh lab
+  234  scp ~/prog1/lab00/hello.c lab:~/
+  235  ssh lab
+  236  uname -a
+  237  history 20 >> ~/prog1/lab00/commands.txt
